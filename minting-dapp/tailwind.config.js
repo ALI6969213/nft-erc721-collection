@@ -11,23 +11,23 @@ module.exports = {
       colors: {
         // General
         page: {
-          from_bg: colors.slate[100],
-          to_bg: colors.slate[200],
+          from_bg: colors.rose[100],
+          to_bg: colors.rose[200],
         },
-        titles: colors.indigo[600],
+        titles: colors.blueGray[700],
         links: {
-          txt: colors.indigo[600],
-          hover_txt: colors.indigo[700],
+          txt: colors.blueGray[600],
+          hover_txt: colors.blueGray[700],
         },
-        loading_spinner: colors.indigo[500],
+        loading_spinner: colors.blueGray[900],
         popups: {
-          bg: colors.white,
-          txt: colors.slate[800],
-          internal_border: colors.slate[200],
+          bg: colors.rose[400],
+          txt: colors.blueGray[900],
+          internal_border: colors.blueGray[900],
         },
         warning: {
-          txt: colors.slate[800],
-          bg: colors.yellow[400],
+          txt: colors.blueGray[800],
+          bg: colors.rose[400],
           border: colors.yellow[500],
         },
         error: {
@@ -38,20 +38,20 @@ module.exports = {
 
         // Inputs
         btn: {
-          txt: colors.slate[800],
-          bg: colors.white,
-          border: colors.slate[200],
-          hover_txt: colors.slate[800],
-          hover_bg: colors.slate[100],
-          hover_border: colors.slate[200],
+          txt: colors.blueGray[800],
+          bg: colors.rose[400],
+          border: colors.rose[200],
+          hover_txt: colors.rose[800],
+          hover_bg: colors.rose[100],
+          hover_border: colors.rose[200],
         },
         btn_primary: {
-          txt: colors.white,
-          bg: colors.indigo[500],
-          border: colors.indigo[500],
-          hover_txt: colors.white,
-          hover_bg: colors.indigo[600],
-          hover_border: colors.indigo[600],
+          txt: colors.blueGray[900],
+          bg: colors.rose[300],
+          border: colors.blueGray[500],
+          hover_txt: colors.blueGray[800],
+          hover_bg: colors.rose[400],
+          hover_border: colors.blueGray[600],
         },
         btn_error: {
           txt: colors.white,
@@ -61,25 +61,25 @@ module.exports = {
           hover_bg: colors.red[600],
           hover_border: colors.red[600],
         },
-        label: colors.indigo[600],
+        label: colors.blueGray[600],
         txt_input: {
-          txt: colors.indigo[600],
-          bg: colors.white,
-          border: colors.slate[200],
-          focus_txt: colors.indigo[600],
-          focus_bg: colors.slate[50],
-          focus_border: colors.indigo[300],
-          placeholder_txt: colors.indigo[600],
+          txt: colors.blueGray[600],
+          bg: colors.rose[300],
+          border: colors.rose[200],
+          focus_txt: colors.blueGray[800],
+          focus_bg: colors.rose[50],
+          focus_border: colors.blueGray[800],
+          placeholder_txt: colors.blueGray[800],
         },
         
         // Whitelist proof widget
         wl_message: {
-          txt: colors.slate[800],
-          bg: colors.indigo[100],
+          txt: colors.blueGray[800],
+          bg: colors.rose[300],
         },
 
         // Mint widget
-        token_preview: colors.indigo[200],
+        token_preview: colors.rose[300],
       },
     },
   },
