@@ -27,7 +27,7 @@ module.exports = {
         },
         warning: {
           txt: colors.blueGray[800],
-          bg: colors.rose[400],
+          bg: colors.blueGray[400],
           border: colors.yellow[500],
         },
         error: {
