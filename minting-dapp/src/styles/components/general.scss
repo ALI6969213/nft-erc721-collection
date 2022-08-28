@@ -9,6 +9,7 @@ body {
 
   // Fullscreen background image example
   background-image: url('../../images/background.jpg');
+  backdrop-filter: brightness(0.5);
   @apply bg-center bg-cover bg-fixed;
 }
 
